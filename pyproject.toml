@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "givesats"
+version = "0.1.0"
+description = "Givesats automates the coordination of sats giveaways on Twitter Spaces"
+authors = ["Tim Akinbo <41004+takinbo@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
